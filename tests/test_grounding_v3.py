@@ -130,13 +130,13 @@ class ParallelSearchTests(unittest.TestCase):
                     "title": "Parallel Result",
                     "url": "https://example.com/parallel",
                     "snippet": "A parallel snippet",
-                    "published_date": "2026-03-15T00:00:00Z",
+                    "publish_date": "2026-03-15T00:00:00Z",
                 },
                 {
                     "title": "Old Parallel Result",
                     "url": "https://example.com/old-parallel",
                     "snippet": "Should be filtered",
-                    "published_date": "2025-12-01T00:00:00Z",
+                    "publish_date": "2025-12-01T00:00:00Z",
                 },
                 {
                     "title": "Undated Parallel Result",
